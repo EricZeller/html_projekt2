@@ -61,17 +61,17 @@ a:hover {
   width: var(--breite) - 10px;
   height: 170px;
   padding: 5px;
-  border: 5px solid #000000;
+  border: 3px solid #000000;
   background-color: var(--firstcolor);
   text-align: center;
 }
 
 .navi {
   width: 15%;
-  height: 616px;
+  height: 624px;
   float: left;
   padding: 5px;
-  border: 5px solid #000000;
+  border: 3px solid #000000;
   background-color: var(--firstcolor);
   color: white;
 }
@@ -79,8 +79,8 @@ a:hover {
 .inhalt {
   width: 81%;
   height: 600px;
-  padding: 13px;
-  border: 5px solid #000000;
+  padding: 17px;
+  border: 3px solid #000000;
   background-color: var(--firstcolor);
   color: white;
   float: right;
