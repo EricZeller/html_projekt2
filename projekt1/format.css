@@ -69,7 +69,7 @@ a:hover {
 
 .navi {
   width: 15%;
-  height: 676px;
+  height: 776px;
   float: left;
   padding: 5px;
   border: 3px solid #000000;
@@ -77,9 +77,10 @@ a:hover {
   color: white;
 }
 
+
 .inhalt {
   width: 81%;
-  height: 650px;
+  height: 750px;
   padding: 18px;
   border: 3px solid #000000;
   background-color: var(--firstcolor);
@@ -103,10 +104,14 @@ a:hover {
   background-color: transparent;
   border: none;
   position: absolute;
-  bottom: -16%;
+  bottom: -30%;
   border-radius: 4px;
 }
 
 .backbutton:hover{
   background-color: rgb(66, 83, 87);
+}
+
+#ytlink{
+  text-decoration: underline;
 }
