@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="format.css">
+    <title>TITEL | Eric's Gitarrenblog</title>
+</head>
+
+<body>
+    <div class="titel">
+        <img src="bilder/titel.png" height="120px" />
+        <br>
+        <h1>ÜBERSCHRIFT</h1>
+        <p></p>
+    </div>
+
+    <div class="inhaltnavibox">
+
+        <div class="navi">
+            <div class="mittig">
+                <a href="western.html">
+                    <img src="bilder/western1.jpg" alt="Westerngitarren" width="200px" /><br>Westerngitarren
+                </a>
+
+                <p></p>
+                <a href="konzert.html">
+                    <img src="bilder/konzert1.jpg" alt="Konzertgitarren" width="200px" /><br>Konzertgitarren
+                </a>
+            </div>
+            <button class="button backbutton" onclick="history.back()"><img src="bilder/backarrow.png"
+                    width="25px"></button>
+        </div>
+
+        <div class="inhalt">
+            TEXT
+        </div>
+
+    </div>
+    <div class="unten">
+        <a href="datenschutz.html">Datenschutz</a>
+        <a href="impressum.html">Impressum</a>
+        <a href="kontakt.html">Kontakt</a>
+    </div>
+
+
+    <p></p>
+</body>
+
+</html>
