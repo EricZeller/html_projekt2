@@ -1,5 +1,5 @@
 :root {
-  --breite: 1400px;
+  --breite: 95%;
   --firstcolor: rgb(68, 93, 100);
 }
 
@@ -13,6 +13,7 @@ body {
   align-content: center;
   margin: 0 auto;
   margin-top: 4px;
+  line-height: 150%;
 }
 
 h1 {
@@ -66,26 +67,29 @@ a:hover {
 
 
 .titel {
-  width: var(--breite) - 10px;
+  width: auto;
   height: 170px;
   padding: 5px;
   border: 3px solid #000000;
   background-color: var(--firstcolor);
   text-align: center;
+  margin: auto;
 }
 
 .inhaltnavibox{
-  width: var(--breite);
+  width: auto;
   height: auto;
   display: flex;
   background-color: rgb(59, 59, 59);
   flex-direction: row;
   gap: 0px;
+  margin: auto;
 }
 
 .navi {
   width: 15%;
   height: auto;
+  min-height: 650px;
   float: left;
   padding: 5px;
   border: 3px solid #000000;
@@ -116,6 +120,11 @@ a:hover {
   bottom: 0;
   margin-top: 15px;
   margin-bottom: 10px;
+}
+
+.unten a:hover{
+  color: white;
+  text-decoration: underline;
 }
 
 .backbutton{
