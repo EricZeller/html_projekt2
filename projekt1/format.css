@@ -99,6 +99,10 @@ a:hover {
   font-size: 11pt;
 }
 
+.navi a:hover {
+  text-decoration: underline;
+}
+
 
 .inhalt {
   width: 85%;
