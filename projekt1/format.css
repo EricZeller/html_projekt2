@@ -1,5 +1,5 @@
 :root {
-  --breite: 95%;
+  --breite: 90vw;
   --firstcolor: rgb(68, 93, 100);
 }
 
@@ -20,7 +20,7 @@ h1 {
   color: white;
   font-family: verdana;
   font-style: bold;
-  font-size: 20pt;
+  font-size: 18pt;
 }
 
 h2 {
@@ -68,8 +68,9 @@ a:hover {
 
 .titel {
   width: auto;
-  height: 170px;
-  padding: 5px;
+  height: auto;
+  min-height: 110px;
+  padding: 0px;
   border: 3px solid #000000;
   background-color: var(--firstcolor);
   text-align: center;
@@ -87,7 +88,7 @@ a:hover {
 }
 
 .navi {
-  width: 15%;
+  width: 15vw;
   height: auto;
   min-height: 700px;
   float: left;
@@ -105,7 +106,7 @@ a:hover {
 
 
 .inhalt {
-  width: 85%;
+  width: 85vw;
   height: auto;
   padding: 18px;
   border: 3px solid #000000;
