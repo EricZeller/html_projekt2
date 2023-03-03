@@ -96,6 +96,7 @@ a:hover {
   background-color: var(--firstcolor);
   color: white;
   position: relative;
+  font-size: 11pt;
 }
 
 
