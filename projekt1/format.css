@@ -91,6 +91,7 @@ a:hover {
   width: 15vw;
   height: auto;
   min-height: 700px;
+  max-width: 180px;
   float: left;
   padding: 5px;
   border: 3px solid #000000;
