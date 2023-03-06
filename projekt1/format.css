@@ -1,13 +1,19 @@
 :root {
   --breite: 90vw;
   --firstcolor: #445d64;
+  --textcolor: #ffffff;
+  --backgroundcolor: #3b3b3b;
+  --linkcolor: #faebd7;
+  --linkhovercolor: #e3e2ca;
+  --linkvisitedcolor: #bbf8a1;
+  --backbtnbackgroundcolor: #425357;
 }
 
 body {
   font-size: 12pt;
-  background-color: #3b3b3b;
+  background-color: var(--backgroundcolor);
   font-family: verdana;
-  color: white;
+  color: var(--textcolor);
   width: var(--breite);
   height: auto;
   align-content: center;
@@ -17,14 +23,14 @@ body {
 }
 
 h1 {
-  color: white;
+  color: var(--textcolor);
   font-family: verdana;
   font-style: bold;
   font-size: 18pt;
 }
 
 h2 {
-  color: white;
+  color: var(--textcolor);
   font-family: verdana;
   font-style: bold;
   font-size: 14pt;
@@ -53,16 +59,16 @@ h2 {
 }
 
 a:link {
-  color: #faebd7;
+  color: var(--linkcolor);
   text-decoration: none;
 }
 
 a:visited {
-  color: #bbf8a1;
+  color: var(--linkvisitedcolor);
 }
 
 a:hover {
-  color: #e3e2ca;
+  color: var(--linkhovercolor);
 }
 
 
@@ -74,14 +80,14 @@ a:hover {
   border: 3px solid #000000;
   background-color: var(--firstcolor);
   text-align: center;
-  margin: auto;
+  margin: 0px;
 }
 
 .inhaltnavibox{
   width: auto;
   height: auto;
   display: flex;
-  background-color: #3b3b3b;
+  background-color: var(--backgroundcolor);
   flex-direction: row;
   gap: 0px;
   margin: auto;
@@ -96,7 +102,7 @@ a:hover {
   padding: 5px;
   border: 3px solid #000000;
   background-color: var(--firstcolor);
-  color: #ffffff;
+  color: var(--textcolor);
   position: relative;
   font-size: 11pt;
 }
@@ -112,7 +118,7 @@ a:hover {
   padding: 18px;
   border: 3px solid #000000;
   background-color: var(--firstcolor);
-  color: #ffffff;
+  color: var(--textcolor);
   float: left;
   position: relative;
 }
@@ -130,7 +136,7 @@ a:hover {
 }
 
 .unten a:hover{
-  color: white;
+  color: var(--textcolor);
   text-decoration: underline;
 }
 
@@ -143,9 +149,30 @@ a:hover {
 }
 
 .backbutton:hover{
-  background-color: rgb(66, 83, 87);
+  background-color: var(--backbtnbackgroundcolor);
 }
 
 #ytlink{
   text-decoration: underline;
+}
+
+#icon { width: 30px;
+  cursor: pointer;
+  position: absolute;
+  top: 2%;
+  right: 6%;
+}
+#icon:hover {
+  background-color: var(--backbtnbackgroundcolor);
+  border-radius: 30px;
+}
+
+.light-theme {
+  --firstcolor:  #ffffff;
+  --textcolor: #212121;
+  --backgroundcolor: #bbbbbb;
+  --linkcolor: #282828;
+  --linkhovercolor: #888888;
+  --linkvisitedcolor: #3b6927;
+  --backbtnbackgroundcolor: #e8e8e8;
 }
