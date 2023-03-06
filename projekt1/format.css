@@ -1,11 +1,11 @@
 :root {
   --breite: 90vw;
-  --firstcolor: rgb(68, 93, 100);
+  --firstcolor: #445d64;
 }
 
 body {
   font-size: 12pt;
-  background-color: rgb(59, 59, 59);
+  background-color: #3b3b3b;
   font-family: verdana;
   color: white;
   width: var(--breite);
@@ -53,16 +53,16 @@ h2 {
 }
 
 a:link {
-  color: rgb(250, 235, 215);
+  color: #faebd7;
   text-decoration: none;
 }
 
 a:visited {
-  color: rgb(187, 248, 161);
+  color: #bbf8a1;
 }
 
 a:hover {
-  color: rgb(227, 226, 202);
+  color: #e3e2ca;
 }
 
 
@@ -81,7 +81,7 @@ a:hover {
   width: auto;
   height: auto;
   display: flex;
-  background-color: rgb(59, 59, 59);
+  background-color: #3b3b3b;
   flex-direction: row;
   gap: 0px;
   margin: auto;
@@ -95,7 +95,7 @@ a:hover {
   padding: 5px;
   border: 3px solid #000000;
   background-color: var(--firstcolor);
-  color: white;
+  color: #ffffff;
   position: relative;
   font-size: 11pt;
 }
@@ -111,7 +111,7 @@ a:hover {
   padding: 18px;
   border: 3px solid #000000;
   background-color: var(--firstcolor);
-  color: white;
+  color: #ffffff;
   float: left;
   position: relative;
 }
