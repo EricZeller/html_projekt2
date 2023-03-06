@@ -2,11 +2,21 @@
   --breite: 90vw;
   --firstcolor: #445d64;
   --textcolor: #ffffff;
-  --backgroundcolor: #3b3b3b;
+  --backgroundcolor: #282828;
   --linkcolor: #faebd7;
-  --linkhovercolor: #e3e2ca;
-  --linkvisitedcolor: #bbf8a1;
-  --backbtnbackgroundcolor: #425357;
+  --linkhovercolor: #b8cbff;
+  --linkvisitedcolor: #ccffe6;
+  --backbtnbackgroundcolor: #99e191;
+}
+
+.lightMode {
+  --firstcolor:  #ffffff;
+  --textcolor: #212121;
+  --backgroundcolor: #5f5f5f;
+  --linkcolor: #282828;
+  --linkhovercolor: #888888;
+  --linkvisitedcolor: #3b6927;
+  --backbtnbackgroundcolor: #e8e8e8;
 }
 
 body {
@@ -135,8 +145,12 @@ a:hover {
   margin-bottom: 10px;
 }
 
+.unten a{
+  color: rgb(198, 198, 198);
+}
+
 .unten a:hover{
-  color: var(--textcolor);
+  color: white;
   text-decoration: underline;
 }
 
@@ -165,14 +179,4 @@ a:hover {
 #icon:hover {
   background-color: var(--backbtnbackgroundcolor);
   border-radius: 30px;
-}
-
-.light-theme {
-  --firstcolor:  #ffffff;
-  --textcolor: #212121;
-  --backgroundcolor: #bbbbbb;
-  --linkcolor: #282828;
-  --linkhovercolor: #888888;
-  --linkvisitedcolor: #3b6927;
-  --backbtnbackgroundcolor: #e8e8e8;
 }
