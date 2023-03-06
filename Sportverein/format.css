@@ -1,0 +1,161 @@
+body                {font-size: 15pt;
+                    color: #f1f1f1;
+					background-color: var(--body-color);
+                    font-family: "Bahnschrift";
+                    width: 1024px;
+                    height: auto;
+                    align-content: center;
+                    margin: 0 auto;
+                  }
+
+.mittig             {text-align: center;
+                    }
+
+				
+.rechts       {  text-align:  right;
+					}
+	.links        {  text-align:  left;
+					}
+	  
+.groesser     {  font-size:   120%;
+        
+	  
+					}
+
+.kleiner      {  font-size:   75%;
+					}
+
+h1,h2,h3,h4,h5
+	{
+	font-family:	"Bahnschrift";
+	font-style:	normal;
+	margin-top:	0pt;
+	text-align:	center;
+	}
+
+h1	{
+	background-color:	var(--fourth-color);
+	color:			var(--secondary-color);
+	font-size:		20pt;
+	text-align:		center;
+  font-family: "Rockwell";
+	}
+h2	{
+	background-color:	rgb(255, 136, 0);
+	color:	            black;
+	font-size:		18pt;
+	text-align:		center;
+	margin-top:		-12pt;
+    }
+
+a:link  {color: var(--third-color);
+        text-decoration: none;}
+
+a:hover {color:var(--secondary-color);
+  text-decoration: underline;}
+
+a:active {color: rgb(199, 182, 88);
+          }
+
+a:visited {color: #e43ac7;
+  text-decoration: underline;}
+
+table     { width:             750px;
+            margin-left:       auto;
+            margin-right:      auto;
+            
+            border-spacing:    15px;
+                    }
+
+th      { border-width:      4px;
+  border-style:      groove;
+  border-color:      #6d6d6d;
+  background-color:  var(--fourth-color);
+  color:             var(--secondary-color);
+  padding:           5px;
+  
+}
+
+
+tr,td  { border-width:      4px;
+            border-style:      groove;
+            border-color:      #2b221c;
+            background-color:  var(--fourth-color);
+            color:             var(--secondary-color);
+            padding:           5px;
+          }
+
+.iframe   { text-align:       left;
+            background-color: #E962DE;
+            width: 844px;
+            height: 600px;
+            padding: 5px;
+            border: 5px solid #00001f;
+            overflow: auto;
+          }          
+
+
+
+.titel    { width: 1004px;
+            height: 150px;
+            padding: 5px;
+            border: 5px solid #000000;
+            background-color: var(--primary-color);
+            color: var(--secondary-color);
+            float: center;
+          }
+
+.navi     { width: 200px;
+            height: 600px;
+            float: left;
+            padding: 5px;
+            border: 5px solid #000000;
+            background-color: var(--primary-color);
+            color: var(--secondary-color);
+          }
+
+.inhalt{
+			width: 780px;
+			height: 600px;
+			padding: 5px;
+			border: 5px solid #000000;
+			background-color: var(--primary-color);
+      color: var(--secondary-color);
+			float: right;
+		}
+
+ 
+.unten{
+      width: 1004px;
+      height: 50px;
+      float: left;
+      padding: 5px;
+			border: 5px solid #000000;
+			background-color: var(--primary-color);
+      color: var(--secondary-color);
+      text-align: center; 
+}
+
+
+/*darkmode icon*/
+#icon { width: 30px;
+        cursor: pointer;
+        
+    }
+
+/*variable farben heller modus*/
+:root {
+  --primary-color:  #d9e7ec;
+  --secondary-color: #212121;
+  --third-color: rgb(100, 88, 88);
+  --fourth-color: #bebaba;
+  --body-color: #ececec;
+}
+/*dunkler modus*/
+.dark-theme {
+  --primary-color:#111827;
+  --secondary-color: #ffffff;
+  --third-color: #ecdede;
+  --fourth-color: #3d3d3d;
+  --body-color: #3f3f3f;
+}
