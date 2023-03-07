@@ -173,7 +173,7 @@ a:hover {
 #icon {
   height: auto;
   width: 3vw;
-  max-width: 5%;
+  max-width: 10%;
   cursor: pointer;
   position: absolute;
   top: 2%;
@@ -188,7 +188,7 @@ a:hover {
 #burgerMenu {
   height: auto;
   width: 0.1vw;
-  max-width: 5%;
+  max-width: 1%;
   position: absolute;
   top: 2%;
   left: 6%;
