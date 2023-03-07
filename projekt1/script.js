@@ -6,7 +6,7 @@ const lightModeToggle = document.querySelector("#icon");
 const enablelightMode = () => {
     // 1. Add the class to the body
     document.body.classList.add("lightMode");
-    icon.src = "bilder/moon.png";
+    icon.src = "bilder/moon.png"
     logo.src = "bilder/titel_dark.png"
     // 2. Update lightMode in localStorage
     localStorage.setItem("lightMode", "enabled");
