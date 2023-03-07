@@ -171,7 +171,7 @@ a:hover {
 }
 
 #icon {
-  width: 3%;
+  width: 1vw;
   cursor: pointer;
   position: absolute;
   top: 2%;
@@ -184,7 +184,7 @@ a:hover {
 }
 
 #burgerMenu {
-  width: 3%;
+  width: 1vw;
   position: absolute;
   top: 2%;
   left: 6%;
