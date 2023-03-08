@@ -178,6 +178,8 @@ a:hover {
   position: absolute;
   top: 2%;
   right: 6%;
+  min-width: 40px;
+
 }
 
 #icon:hover {
@@ -187,8 +189,7 @@ a:hover {
 
 #burgerImg {
   height: auto;
-  width: 4vw;
-  max-width: 30px;
+  width: 40px;
 }
 
 #burgerImg:hover {
