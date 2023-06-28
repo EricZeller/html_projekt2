@@ -77,13 +77,18 @@ nav ul li a {
 
 .main-content h1 {
   font-size: 48px;
-  color: #fff;
+  color: var(--textcolor);
   margin-bottom: 20px;
 }
 
 .main-content p {
   font-size: 24px;
   color: var(--textcolor);
+  margin-bottom: 30px;
+}
+
+.main-content img {
+  max-width: 300px;
   margin-bottom: 30px;
 }
 
