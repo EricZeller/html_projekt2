@@ -63,6 +63,12 @@ nav ul li a {
   text-decoration: none;
 }
 
+@keyframes background1 {
+  0% {background-image: url(img/Background1.jpg);}
+  33% {background-image: url(img/Background2.jpg);}
+  66% {background-image: url(img/Background3.jpg);}
+}
+
 /* Hero-Styling */
 .main {
   min-height: 100%;
@@ -72,6 +78,10 @@ nav ul li a {
   background-color: var(--firstcolor);
   color: var(--textcolor);
   background-image: url(img/Background1.jpg);
+  animation-name: background1;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-timing-function: repeat;
   background-size: 1500px;
   background-repeat: repeat-y;
   background-attachment: fixed;
@@ -174,4 +184,3 @@ footer a:hover{
 #icon {
   cursor: pointer;
 }
-
