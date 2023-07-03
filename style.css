@@ -21,7 +21,9 @@
   --backbtnbackgroundcolor: #e8e8e8;
   --uebersichtcolor: #d1d1d1;
 }
-
+html{
+  background-color: var(--backgroundcolor);
+}
 body {
   font-family: Arial, sans-serif;
   margin: 0;
